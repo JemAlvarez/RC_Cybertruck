@@ -1,0 +1,376 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA38EFCC2930743100D3A255 /* Cybertruck_RCApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA38EFCB2930743100D3A255 /* Cybertruck_RCApp.swift */; };
+		CA38EFCE2930743100D3A255 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA38EFCD2930743100D3A255 /* ContentView.swift */; };
+		CA38EFD02930743200D3A255 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA38EFCF2930743200D3A255 /* Assets.xcassets */; };
+		CA38EFD32930743200D3A255 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA38EFD22930743200D3A255 /* Preview Assets.xcassets */; };
+		CAE7EBB2293076A300B477FC /* BluetoothManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE7EBB1293076A300B477FC /* BluetoothManager.swift */; };
+		CAE7EBBB29307AE200B477FC /* BluetoothCentralDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE7EBBA29307AE200B477FC /* BluetoothCentralDelegate.swift */; };
+		CAE7EBBD29307AFE00B477FC /* BluetoothPeripheralDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE7EBBC29307AFE00B477FC /* BluetoothPeripheralDelegate.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CA38EFC82930743100D3A255 /* Cybertruck RC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cybertruck RC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA38EFCB2930743100D3A255 /* Cybertruck_RCApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cybertruck_RCApp.swift; sourceTree = "<group>"; };
+		CA38EFCD2930743100D3A255 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CA38EFCF2930743200D3A255 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA38EFD22930743200D3A255 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CA38EFD92930746000D3A255 /* Cybertruck-RC-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Cybertruck-RC-Info.plist"; sourceTree = SOURCE_ROOT; };
+		CAE7EBB1293076A300B477FC /* BluetoothManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothManager.swift; sourceTree = "<group>"; };
+		CAE7EBBA29307AE200B477FC /* BluetoothCentralDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothCentralDelegate.swift; sourceTree = "<group>"; };
+		CAE7EBBC29307AFE00B477FC /* BluetoothPeripheralDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothPeripheralDelegate.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA38EFC52930743100D3A255 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA38EFBF2930743100D3A255 = {
+			isa = PBXGroup;
+			children = (
+				CA38EFCA2930743100D3A255 /* Cybertruck RC */,
+				CA38EFC92930743100D3A255 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA38EFC92930743100D3A255 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA38EFC82930743100D3A255 /* Cybertruck RC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA38EFCA2930743100D3A255 /* Cybertruck RC */ = {
+			isa = PBXGroup;
+			children = (
+				CAE7EBB4293077F000B477FC /* Views */,
+				CAE7EBB3293077DE00B477FC /* Shared */,
+				CA38EFD92930746000D3A255 /* Cybertruck-RC-Info.plist */,
+				CA38EFCB2930743100D3A255 /* Cybertruck_RCApp.swift */,
+				CA38EFCF2930743200D3A255 /* Assets.xcassets */,
+				CA38EFD12930743200D3A255 /* Preview Content */,
+			);
+			path = "Cybertruck RC";
+			sourceTree = "<group>";
+		};
+		CA38EFD12930743200D3A255 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CA38EFD22930743200D3A255 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CAE7EBB3293077DE00B477FC /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				CAE7EBB1293076A300B477FC /* BluetoothManager.swift */,
+				CAE7EBBA29307AE200B477FC /* BluetoothCentralDelegate.swift */,
+				CAE7EBBC29307AFE00B477FC /* BluetoothPeripheralDelegate.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		CAE7EBB4293077F000B477FC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CA38EFCD2930743100D3A255 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA38EFC72930743100D3A255 /* Cybertruck RC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA38EFD62930743200D3A255 /* Build configuration list for PBXNativeTarget "Cybertruck RC" */;
+			buildPhases = (
+				CA38EFC42930743100D3A255 /* Sources */,
+				CA38EFC52930743100D3A255 /* Frameworks */,
+				CA38EFC62930743100D3A255 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cybertruck RC";
+			productName = "Cybertruck RC";
+			productReference = CA38EFC82930743100D3A255 /* Cybertruck RC.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA38EFC02930743100D3A255 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					CA38EFC72930743100D3A255 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = CA38EFC32930743100D3A255 /* Build configuration list for PBXProject "Cybertruck RC" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CA38EFBF2930743100D3A255;
+			productRefGroup = CA38EFC92930743100D3A255 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA38EFC72930743100D3A255 /* Cybertruck RC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA38EFC62930743100D3A255 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA38EFD32930743200D3A255 /* Preview Assets.xcassets in Resources */,
+				CA38EFD02930743200D3A255 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA38EFC42930743100D3A255 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAE7EBBD29307AFE00B477FC /* BluetoothPeripheralDelegate.swift in Sources */,
+				CA38EFCE2930743100D3A255 /* ContentView.swift in Sources */,
+				CAE7EBB2293076A300B477FC /* BluetoothManager.swift in Sources */,
+				CA38EFCC2930743100D3A255 /* Cybertruck_RCApp.swift in Sources */,
+				CAE7EBBB29307AE200B477FC /* BluetoothCentralDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CA38EFD42930743200D3A255 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CA38EFD52930743200D3A255 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA38EFD72930743200D3A255 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Cybertruck RC/Preview Content\"";
+				DEVELOPMENT_TEAM = HB3E67YK35;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Cybertruck-RC-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jemalvarez.Cybertruck-RC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CA38EFD82930743200D3A255 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Cybertruck RC/Preview Content\"";
+				DEVELOPMENT_TEAM = HB3E67YK35;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Cybertruck-RC-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jemalvarez.Cybertruck-RC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA38EFC32930743100D3A255 /* Build configuration list for PBXProject "Cybertruck RC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA38EFD42930743200D3A255 /* Debug */,
+				CA38EFD52930743200D3A255 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA38EFD62930743200D3A255 /* Build configuration list for PBXNativeTarget "Cybertruck RC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA38EFD72930743200D3A255 /* Debug */,
+				CA38EFD82930743200D3A255 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA38EFC02930743100D3A255 /* Project object */;
+}
