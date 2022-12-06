@@ -1,7 +1,6 @@
 #include "Motor.h"
 #include "Steering.h"
 #include "Accessories.h"
-#include "SR04.h"
 
 Motor motor;
 Steering steering;
@@ -15,9 +14,9 @@ void setup() {
   // accessories.setupHonk(12);
   // accessories.setupUltraSonicSensor(11, 12);
   // motor.setup(2,4,3, accessories);
-  // steering.setup(9);
-  Serial.begin(9600);
-  Serial.setTimeout(100);
+  steering.setup(9);
+  // Serial.begin(9600);
+  // Serial.setTimeout(100);
 }
 
 // long dist;
@@ -94,11 +93,11 @@ void loop() {
   // motor.reverse(50);
   // delay(5000);
 
-  // for (int i = 0; i < 10; i++) {
-  //   steering.steer(random(180));
-  //   delay(500);
-  // }
+  steering.steer(0);
+  delay(1000);
+  steering.steer(180);
+  delay(1000);
 
   // steering.center();
-  // delay(5000);
+  // delay(2000);
 }

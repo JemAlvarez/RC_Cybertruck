@@ -6,7 +6,7 @@ import SwiftUI
 struct Cybertruck_RCApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainView()
         }
     }
 }

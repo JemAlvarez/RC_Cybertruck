@@ -11,6 +11,20 @@
 		CA38EFCE2930743100D3A255 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA38EFCD2930743100D3A255 /* ContentView.swift */; };
 		CA38EFD02930743200D3A255 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA38EFCF2930743200D3A255 /* Assets.xcassets */; };
 		CA38EFD32930743200D3A255 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA38EFD22930743200D3A255 /* Preview Assets.xcassets */; };
+		CA81EB87293EFE2E00151E12 /* ColorsExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA81EB86293EFE2E00151E12 /* ColorsExtensions.swift */; };
+		CA81EB8B293EFEA000151E12 /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA81EB8A293EFEA000151E12 /* AlertView.swift */; };
+		CA81EB8F293F04A900151E12 /* GearsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA81EB8E293F04A900151E12 /* GearsView.swift */; };
+		CA81EB91293F052500151E12 /* DrivingInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA81EB90293F052500151E12 /* DrivingInfoView.swift */; };
+		CA81EB93293F053F00151E12 /* DrivingInfoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA81EB92293F053F00151E12 /* DrivingInfoViewModel.swift */; };
+		CA81EB96293F06B100151E12 /* Gears.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA81EB95293F06B100151E12 /* Gears.swift */; };
+		CA81EB98293F096F00151E12 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA81EB97293F096F00151E12 /* MainView.swift */; };
+		CA81EB9A293F0AA200151E12 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA81EB99293F0AA200151E12 /* Constants.swift */; };
+		CA81EB9C293F0F3B00151E12 /* BatteryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA81EB9B293F0F3B00151E12 /* BatteryView.swift */; };
+		CA81EB9F293F12BE00151E12 /* ControlsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA81EB9E293F12BE00151E12 /* ControlsView.swift */; };
+		CA81EBA1293F137800151E12 /* SpeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA81EBA0293F137800151E12 /* SpeedView.swift */; };
+		CA81EBA5293F209000151E12 /* ImageExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA81EBA4293F209000151E12 /* ImageExtensions.swift */; };
+		CA81EBA7293F240300151E12 /* CarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA81EBA6293F240300151E12 /* CarView.swift */; };
+		CA81EBA9293F2A9700151E12 /* BlinkersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA81EBA8293F2A9700151E12 /* BlinkersView.swift */; };
 		CAE7EBB2293076A300B477FC /* BluetoothManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE7EBB1293076A300B477FC /* BluetoothManager.swift */; };
 		CAE7EBBB29307AE200B477FC /* BluetoothCentralDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE7EBBA29307AE200B477FC /* BluetoothCentralDelegate.swift */; };
 		CAE7EBBD29307AFE00B477FC /* BluetoothPeripheralDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE7EBBC29307AFE00B477FC /* BluetoothPeripheralDelegate.swift */; };
@@ -22,7 +36,21 @@
 		CA38EFCD2930743100D3A255 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CA38EFCF2930743200D3A255 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CA38EFD22930743200D3A255 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		CA38EFD92930746000D3A255 /* Cybertruck-RC-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Cybertruck-RC-Info.plist"; sourceTree = SOURCE_ROOT; };
+		CA38EFD92930746000D3A255 /* Cybertruck-RC-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Cybertruck-RC-Info.plist"; sourceTree = SOURCE_ROOT; };
+		CA81EB86293EFE2E00151E12 /* ColorsExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsExtensions.swift; sourceTree = "<group>"; };
+		CA81EB8A293EFEA000151E12 /* AlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
+		CA81EB8E293F04A900151E12 /* GearsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GearsView.swift; sourceTree = "<group>"; };
+		CA81EB90293F052500151E12 /* DrivingInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrivingInfoView.swift; sourceTree = "<group>"; };
+		CA81EB92293F053F00151E12 /* DrivingInfoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrivingInfoViewModel.swift; sourceTree = "<group>"; };
+		CA81EB95293F06B100151E12 /* Gears.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gears.swift; sourceTree = "<group>"; };
+		CA81EB97293F096F00151E12 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		CA81EB99293F0AA200151E12 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		CA81EB9B293F0F3B00151E12 /* BatteryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatteryView.swift; sourceTree = "<group>"; };
+		CA81EB9E293F12BE00151E12 /* ControlsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlsView.swift; sourceTree = "<group>"; };
+		CA81EBA0293F137800151E12 /* SpeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedView.swift; sourceTree = "<group>"; };
+		CA81EBA4293F209000151E12 /* ImageExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageExtensions.swift; sourceTree = "<group>"; };
+		CA81EBA6293F240300151E12 /* CarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarView.swift; sourceTree = "<group>"; };
+		CA81EBA8293F2A9700151E12 /* BlinkersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlinkersView.swift; sourceTree = "<group>"; };
 		CAE7EBB1293076A300B477FC /* BluetoothManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothManager.swift; sourceTree = "<group>"; };
 		CAE7EBBA29307AE200B477FC /* BluetoothCentralDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothCentralDelegate.swift; sourceTree = "<group>"; };
 		CAE7EBBC29307AFE00B477FC /* BluetoothPeripheralDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothPeripheralDelegate.swift; sourceTree = "<group>"; };
@@ -42,6 +70,7 @@
 		CA38EFBF2930743100D3A255 = {
 			isa = PBXGroup;
 			children = (
+				CA38EFD92930746000D3A255 /* Cybertruck-RC-Info.plist */,
 				CA38EFCA2930743100D3A255 /* Cybertruck RC */,
 				CA38EFC92930743100D3A255 /* Products */,
 			);
@@ -58,11 +87,12 @@
 		CA38EFCA2930743100D3A255 /* Cybertruck RC */ = {
 			isa = PBXGroup;
 			children = (
+				CA81EB94293F06A300151E12 /* Models */,
+				CA81EB84293EFE0400151E12 /* ViewModel */,
+				CA81EB82293EFB3D00151E12 /* Resources */,
+				CA81EB81293EFB3400151E12 /* App */,
 				CAE7EBB4293077F000B477FC /* Views */,
 				CAE7EBB3293077DE00B477FC /* Shared */,
-				CA38EFD92930746000D3A255 /* Cybertruck-RC-Info.plist */,
-				CA38EFCB2930743100D3A255 /* Cybertruck_RCApp.swift */,
-				CA38EFCF2930743200D3A255 /* Assets.xcassets */,
 				CA38EFD12930743200D3A255 /* Preview Content */,
 			);
 			path = "Cybertruck RC";
@@ -76,12 +106,100 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		CAE7EBB3293077DE00B477FC /* Shared */ = {
+		CA81EB80293EFA2900151E12 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				CA81EB8A293EFEA000151E12 /* AlertView.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		CA81EB81293EFB3400151E12 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				CA38EFCB2930743100D3A255 /* Cybertruck_RCApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		CA81EB82293EFB3D00151E12 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CA38EFCF2930743200D3A255 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CA81EB83293EFDF400151E12 /* BT */ = {
 			isa = PBXGroup;
 			children = (
 				CAE7EBB1293076A300B477FC /* BluetoothManager.swift */,
 				CAE7EBBA29307AE200B477FC /* BluetoothCentralDelegate.swift */,
 				CAE7EBBC29307AFE00B477FC /* BluetoothPeripheralDelegate.swift */,
+			);
+			path = BT;
+			sourceTree = "<group>";
+		};
+		CA81EB84293EFE0400151E12 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				CA81EB92293F053F00151E12 /* DrivingInfoViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		CA81EB85293EFE1E00151E12 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				CA81EB86293EFE2E00151E12 /* ColorsExtensions.swift */,
+				CA81EBA4293F209000151E12 /* ImageExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		CA81EB8C293F046100151E12 /* Driving Info */ = {
+			isa = PBXGroup;
+			children = (
+				CA81EB8D293F047A00151E12 /* Components */,
+				CA81EB90293F052500151E12 /* DrivingInfoView.swift */,
+			);
+			path = "Driving Info";
+			sourceTree = "<group>";
+		};
+		CA81EB8D293F047A00151E12 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				CA81EB8E293F04A900151E12 /* GearsView.swift */,
+				CA81EB9B293F0F3B00151E12 /* BatteryView.swift */,
+				CA81EBA0293F137800151E12 /* SpeedView.swift */,
+				CA81EBA6293F240300151E12 /* CarView.swift */,
+				CA81EBA8293F2A9700151E12 /* BlinkersView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		CA81EB94293F06A300151E12 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CA81EB95293F06B100151E12 /* Gears.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CA81EB9D293F12B300151E12 /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+				CA81EB9E293F12BE00151E12 /* ControlsView.swift */,
+			);
+			path = Controls;
+			sourceTree = "<group>";
+		};
+		CAE7EBB3293077DE00B477FC /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				CA81EB85293EFE1E00151E12 /* Extensions */,
+				CA81EB83293EFDF400151E12 /* BT */,
+				CA81EB99293F0AA200151E12 /* Constants.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -89,7 +207,11 @@
 		CAE7EBB4293077F000B477FC /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				CA81EB9D293F12B300151E12 /* Controls */,
+				CA81EB8C293F046100151E12 /* Driving Info */,
+				CA81EB80293EFA2900151E12 /* Shared */,
 				CA38EFCD2930743100D3A255 /* ContentView.swift */,
+				CA81EB97293F096F00151E12 /* MainView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -164,11 +286,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA81EB9C293F0F3B00151E12 /* BatteryView.swift in Sources */,
 				CAE7EBBD29307AFE00B477FC /* BluetoothPeripheralDelegate.swift in Sources */,
+				CA81EB98293F096F00151E12 /* MainView.swift in Sources */,
 				CA38EFCE2930743100D3A255 /* ContentView.swift in Sources */,
+				CA81EB8B293EFEA000151E12 /* AlertView.swift in Sources */,
 				CAE7EBB2293076A300B477FC /* BluetoothManager.swift in Sources */,
+				CA81EBA1293F137800151E12 /* SpeedView.swift in Sources */,
 				CA38EFCC2930743100D3A255 /* Cybertruck_RCApp.swift in Sources */,
+				CA81EB91293F052500151E12 /* DrivingInfoView.swift in Sources */,
+				CA81EBA9293F2A9700151E12 /* BlinkersView.swift in Sources */,
+				CA81EB9A293F0AA200151E12 /* Constants.swift in Sources */,
+				CA81EB93293F053F00151E12 /* DrivingInfoViewModel.swift in Sources */,
+				CA81EBA5293F209000151E12 /* ImageExtensions.swift in Sources */,
 				CAE7EBBB29307AE200B477FC /* BluetoothCentralDelegate.swift in Sources */,
+				CA81EB96293F06B100151E12 /* Gears.swift in Sources */,
+				CA81EB87293EFE2E00151E12 /* ColorsExtensions.swift in Sources */,
+				CA81EB9F293F12BE00151E12 /* ControlsView.swift in Sources */,
+				CA81EB8F293F04A900151E12 /* GearsView.swift in Sources */,
+				CA81EBA7293F240300151E12 /* CarView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,11 +437,11 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Cybertruck-RC-Info.plist";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Control RC Car";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -331,11 +467,11 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Cybertruck-RC-Info.plist";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Control RC Car";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -1,6 +1,7 @@
 {
-  "colors" : [
+  "images" : [
     {
+      "filename" : "Cybertruck.png",
       "idiom" : "universal"
     }
   ],
