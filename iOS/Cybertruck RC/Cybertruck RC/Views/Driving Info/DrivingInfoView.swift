@@ -3,21 +3,12 @@
 import SwiftUI
 
 struct DrivingInfoView: View {
-    @StateObject var viewModel = DrivingInfoViewModel()
+    @EnvironmentObject var viewModel: MainViewModel
     
     var body: some View {
         VStack(spacing: Constants.Padding.smallX) {
             HStack {
                 GearsView(gear: viewModel.gear)
-                    .onTapGesture {
-                        withAnimation {
-                            if viewModel.gear == .parking {
-                                viewModel.gear = .driving
-                            } else {
-                                viewModel.gear = .parking
-                            }
-                        }
-                    }
 
                 Spacer()
 
@@ -29,26 +20,16 @@ struct DrivingInfoView: View {
                 Spacer()
                 
                 BatteryView()
-                    .onTapGesture {
-                        viewModel.isLeftBlinkerOn.toggle()
-                    }
             }
 
             Divider()
 
             SpeedView(speed: viewModel.speed, maxSpeed: viewModel.maxSpeed)
-                .onTapGesture {
-                    withAnimation {
-                        viewModel.speed += 5
-                    }
-                }
 
             ZStack {
                 VStack {
                     HStack {
-                        VStack {
-                            // TODO: Headlights
-                        }
+                        HeadlightsView(state: viewModel.headlightState)
 
                         Spacer()
                     }
@@ -57,7 +38,14 @@ struct DrivingInfoView: View {
 
                 CarView(distance: viewModel.frontDistance)
                     .onTapGesture {
-                        viewModel.isRightBlinkerOn.toggle()
+                        switch viewModel.headlightState {
+                            case .high:
+                                viewModel.headlightState = .off
+                            case .low:
+                                viewModel.headlightState = .high
+                            case .off:
+                                viewModel.headlightState = .low
+                        }
                     }
             }
         }
@@ -69,5 +57,6 @@ struct DrivingInfoView: View {
 struct DrivingInfoView_Previews: PreviewProvider {
     static var previews: some View {
         DrivingInfoView()
+            .environmentObject(MainViewModel())
     }
 }
